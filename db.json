@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "name": "Laptop",
+      "price": 1200,
+      "category": "Electronics"
+    },
+    {
+      "name": "Smartphone",
+      "price": 800,
+      "category": "Electronics"
+    },
+    {
+      "name": "Headphones",
+      "price": 150,
+      "category": "Electronics"
+    },
+    {
+      "name": "T-shirt",
+      "price": 25,
+      "category": "Apparel"
+    },
+    {
+      "name": "Jeans",
+      "price": 75,
+      "category": "Apparel"
+    },
+    {
+      "name": "Sneakers",
+      "price": 100,
+      "category": "Footwear"
+    },
+    {
+      "name": "Watch",
+      "price": 300,
+      "category": "Accessories"
+    },
+    {
+      "name": "Backpack",
+      "price": 50,
+      "category": "Accessories"
+    },
+    {
+      "name": "Coffee Maker",
+      "price": 60,
+      "category": "Home Goods"
+    },
+    {
+      "name": "Desk Chair",
+      "price": 200,
+      "category": "Furniture"
+    }
+  ]
+}

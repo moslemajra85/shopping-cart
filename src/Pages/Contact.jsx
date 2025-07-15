@@ -7,6 +7,7 @@ const Contact = () => {
         message: ''
     });
 
+
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [isSubmitted, setIsSubmitted] = useState(false);
 
@@ -20,14 +21,14 @@ const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         setIsSubmitting(true);
-        
+
         // Simulate form submission
         setTimeout(() => {
             setIsSubmitting(false);
             setIsSubmitted(true);
-            
+
             // Reset form after 3 seconds
-            setTimeout(() => {
+               setTimeout(() => {
                 setIsSubmitted(false);
                 setFormData({ name: '', email: '', message: '' });
             }, 3000);

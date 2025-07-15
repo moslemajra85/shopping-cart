@@ -4,6 +4,7 @@ import About from "./Pages/About";
 import Cart from "./Pages/Cart";
 import Navbar from "./components/Navbar";
 import NotFoundPage from "./Pages/NotFoundPage";
+import Contact from "./Pages/Contact";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/contact" element={<Contact />}  />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </Router>

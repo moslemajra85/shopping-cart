@@ -17,6 +17,11 @@ const Navbar = () => {
             <FaCartPlus size={20} />
             Cart
           </Link>
+
+          <Link to="/contact" className="navbar-link">
+            ✉️
+            Contact
+          </Link>
         </div>
       </ul>
     </div>

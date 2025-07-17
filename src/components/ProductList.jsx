@@ -1,19 +1,11 @@
-import React, { useEffect, useState } from "react";
-import HttpClient from "../http/httpClient";
 import Product from "./Products";
+import { ProductContext } from "../context/productContext";
+import { useContext } from "react";
 
 const ProductList = () => {
-  const [products, setProducts] = useState([]);
 
-  const fetchProducts = () => {
-    HttpClient.get("/products")
-      .then((response) => setProducts(response.data))
-      .catch((error) => console.log(error));
-  };
+  const { products } = useContext(ProductContext)
 
-  useEffect(() => {
-    fetchProducts();
-  }, []);
 
   return (
     <div className="products-grid">
